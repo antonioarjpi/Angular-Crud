@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung A50",
+      "price": 1562
+    },
+    {
+      "id": 2,
+      "name": "Iphone X",
+      "price": 4599.99
+    },
+    {
+      "id": 3,
+      "name": "Xiomi Poco Ultra",
+      "price": 3579.47
+    },
+    {
+      "name": "Lg Ultra Fino",
+      "price": "2697.89",
+      "id": 4
+    }
+  ]
+}
