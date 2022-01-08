@@ -1,6 +1,9 @@
 .header{
     display: flex;
     align-items: center;
+    background-color: #f8f9fa;
+    color: rgb(255, 126, 21);
+    padding-left: 25px;
 }
 
 .header a{
