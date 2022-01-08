@@ -21,6 +21,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { OrangeDirective } from './directives/orange.directive';
 import { ProductCreateComponent } from './product/product-create/product-create.component'
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,8 @@ import { ProductCreateComponent } from './product/product-create/product-create.
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
