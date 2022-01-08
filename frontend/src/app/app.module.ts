@@ -15,7 +15,7 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component'
 
 import { MatCardModule }from '@angular/material/card';
-
+import { MatSnackBarModule }from '@angular/material/snack-bar';
 import { MatButtonModule }from '@angular/material/button';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { OrangeDirective } from './directives/orange.directive';
@@ -40,7 +40,8 @@ import { ProductCreateComponent } from './product/product-create/product-create.
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
