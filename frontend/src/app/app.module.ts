@@ -21,7 +21,14 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { OrangeDirective } from './directives/orange.directive';
 import { ProductCreateComponent } from './product/product-create/product-create.component'
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/product/product-read/product-read.component'
+
+
 
 @NgModule({
   declarations: [
@@ -32,7 +39,8 @@ import { HttpClientModule } from '@angular/common/http'
     HomeComponent,
     ProductCrudComponent,
     OrangeDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +52,10 @@ import { HttpClientModule } from '@angular/common/http'
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule, 
+    FormsModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

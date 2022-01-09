@@ -1,7 +1,7 @@
 .header{
     display: flex;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: rgb(63, 58, 49);
     color: rgb(255, 126, 21);
     padding-left: 25px;
 }
