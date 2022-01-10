@@ -21,44 +21,9 @@
       "id": 4
     },
     {
-      "name": "Produto",
-      "price": 125.84,
+      "name": "Moto",
+      "price": "16872.33",
       "id": 5
-    },
-    {
-      "name": "asdas",
-      "price": "asdasd",
-      "id": 6
-    },
-    {
-      "name": "Produto",
-      "price": 125.84,
-      "id": 7
-    },
-    {
-      "name": "Produto",
-      "price": 125.84,
-      "id": 8
-    },
-    {
-      "name": "AASDASD",
-      "price": 125.84,
-      "id": 9
-    },
-    {
-      "name": "Lapis",
-      "price": "1.00",
-      "id": 10
-    },
-    {
-      "name": "Naruto",
-      "price": "3423.4",
-      "id": 11
-    },
-    {
-      "name": "Produto",
-      "price": 125.84,
-      "id": 12
     }
   ]
 }

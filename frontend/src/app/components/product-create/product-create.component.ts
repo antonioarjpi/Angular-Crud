@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
-import { ProductService } from './../../components/product/product.service';
+import { ProductService } from '../product/product.service';
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product.model';
+import { Product } from '../product/product.model';
 
 @Component({
   selector: 'app-product-create',
@@ -11,9 +11,10 @@ import { Product } from '../product.model';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    name: 'Produto',
-    price: 125.84
+    name: '',
+    price: null!
   }
+
 
   constructor(
     private productService: ProductService, 

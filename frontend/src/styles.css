@@ -15,3 +15,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: white;
     color: black;
 }
+
+.msg-success{
+    background-color: rgb(247, 242, 235);
+    color: black;
+}
+
+.msg-error{
+    background-color: red;
+    color: white;
+    font:  smaller;
+}

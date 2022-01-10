@@ -3,7 +3,7 @@ import { ProductReadDataSource } from './product-read-datasource';
 import { MatTable } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
 import { MatPaginator } from '@angular/material/paginator';
-import { Product } from './../../../product/product.model';
+import { Product } from '../product.model';
 
 
 import { ProductService } from './../product.service';
@@ -25,9 +25,6 @@ export class ProductReadComponent implements OnInit, AfterViewInit {
   @ViewChild(MatSort) sort!: MatSort;
   @ViewChild(MatTable) table!: MatTable<Product>;
   dataSource: ProductReadDataSource;
-
-
-  
 
   constructor(
     private ProductService: ProductService
